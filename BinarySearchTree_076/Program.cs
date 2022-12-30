@@ -22,5 +22,13 @@ namespace BinarySearchTree_076
         }
     }
 
-   
+    /*A node class consist os three things, the information, reference to the right child, and reference to the left child*/
+    class BinaryTree
+    {
+        public Node ROOT;
+        public BinaryTree()
+        {
+            ROOT = null; /*Initializing ROOT to null*/
+        }
+    }
 }
